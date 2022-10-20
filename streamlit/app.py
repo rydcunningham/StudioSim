@@ -1,5 +1,5 @@
 import streamlit as st
-from st_aggrid import AgGrid
+#from st_aggrid import AgGrid
 import pandas as pd
 import numpy as np
 import seaborn as sns
@@ -97,8 +97,8 @@ def run_sim():
     st.plotly_chart(fig, use_container_width=True)
 
     # Raw data
-    st.subheader('Raw Data')
-    AgGrid(data, enable_enterprise_modules=True, allow_unsafe_jscode=True)
+    #st.subheader('Raw Data')
+    #AgGrid(data, enable_enterprise_modules=True, allow_unsafe_jscode=True)
 
 
 def generate_projects(p):
